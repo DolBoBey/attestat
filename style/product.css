@@ -113,6 +113,9 @@ h1,h2,h3,h4,h5,h6{
    background: rgba(18, 18, 18, 0.4);
    border: 1px solid rgba(18, 18, 18, 0.2);
    backdrop-filter: blur(25px);
+   -webkit-backdrop-filter: blur(25px);
+   -moz-backdrop-filter: blur(25px);
+   -ms-backdrop-filter: blur(25px);
    border-radius: 20px;
 }
 
@@ -166,6 +169,7 @@ h1,h2,h3,h4,h5,h6{
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
+   margin-bottom: 15px;
 }
 
 .product__price{
